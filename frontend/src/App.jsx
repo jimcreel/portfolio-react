@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-fixed bg-gradient-to-b  from-black from-40% to-primary h-screen">
+      <div >
       <Nav />
       <NameTag />
       <Routes> 
