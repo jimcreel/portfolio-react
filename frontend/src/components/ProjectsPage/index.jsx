@@ -23,7 +23,7 @@ export default function ProjectsPage() {
             >
                 <div className="border-2 border-secondary w-[200px]  text-accent shadow-sm rounded p-5 m-2 text-center">
                 <button onClick={handleClick(0)}>
-                <img src='../../src/assets/img/Disneyland.png ' className='w-[250px] h-[100px]'/>
+                <img src='/assets/img/Disneyland.png ' className='w-[250px] h-[100px]'/>
 
                     </button>
                 </div>
@@ -45,7 +45,7 @@ export default function ProjectsPage() {
             >
                 <div className="border-2 border-secondary w-[200px]  text-accent shadow-sm rounded p-5 m-2">
                 <button onClick={handleClick(1)}>
-                <img src='../../src/assets/img/Lego.png' className='w-[250px] h-[100px]'/>
+                <img src='/assets/img/Lego.png' className='w-[250px] h-[100px]'/>
 
                     </button>
                 </div>
@@ -65,7 +65,7 @@ export default function ProjectsPage() {
             >
                 <div className="border-2 border-secondary w-[200px]  text-accent shadow-sm rounded p-5 m-2">
                 <button onClick={handleClick(2)}>
-                <img src='../../src/assets/img/mlb.png' className='w-[250px] h-[100px]'/>
+                <img src='/assets/img/mlb.png' className='w-[250px] h-[100px]'/>
 
                     
                     </button>
