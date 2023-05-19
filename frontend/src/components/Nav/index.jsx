@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Nav() {
   return (
-    <nav className='bg-black text-secondary font-sans text-xl'>
+    <nav className='bg-black text-accent font-sans text-xl'>
       <ul className='flex flex-row justify-start items-center'>
         <li className='m-2'>
           <Link to="/">Home</Link>

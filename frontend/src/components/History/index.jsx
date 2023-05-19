@@ -3,6 +3,7 @@ import ProjectCard from '../ProjectCard';
 import { useState } from 'react';
 
 export default function History() {
+                    
     const [history] = useState([
         {
             title: 'Humanities',
