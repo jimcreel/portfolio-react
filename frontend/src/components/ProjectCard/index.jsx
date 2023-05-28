@@ -14,7 +14,7 @@ export default function ProjectCard(props) {
   let techDiv = "loading...";
   if (cardData?.stack) {
     techDiv = cardData.stack.map((item, ind) => {
-      let buildClass = "flex flex-wrap m-1 text-3xl" + " " + tech[0][item];
+      let buildClass = "break-all m-1 text-4xl" + " " + tech[0][item];
       console.log(buildClass)
       return <i className={buildClass} key={ind}></i>;
     });
@@ -27,13 +27,13 @@ export default function ProjectCard(props) {
         flipDirection="horizontal"
         className="w-[250px] "
       >
-        <div className="border-2 border-secondary w-[250px] text-accent shadow-sm rounded p-5 m-2 text-center flex justify-center">
+        <div className="border-2 border-secondary w-[250px] h-[325px] text-accent shadow-sm rounded p-5 m-2 text-center flex justify-center">
           <button onClick={handleClick}>
             <h1 className='mb-2'> {cardData.project}</h1>
             <div className="h-[150px] flex justify-center align-center">
               <img src={cardData.img} alt={cardData.title} className='max-w-[75%], max-h-[75%]' />
             </div>
-            <div className="flex justify-center">
+            <div className="flex flex-wrap justify-center">
             {cardData.stack && techDiv}
             </div>
             <p className="text-accent text-2xl">{cardData.title}</p>
