@@ -8,12 +8,12 @@ export default function ProjectsPage({tech}) {
     const [descriptions] = useState([
         {
             project: 'Magic Reservations',
-            text: `The Disney reservation checker is a MEN stack app built with the Bootstrap CSS library. 
+            text: `The Disney reservation checker is a React app built with the Bootstrap and Tailwind CSS libraries. 
             The site pulls publicly available reservation data from Disney websites and displays it for the
-              user filtered by resort, park, date, and annual pass. Requires a Google account to use.`,
+              user filtered by resort, park, date, and annual pass. This demonstration site runs on one user that is constantly logged in.`,
             img: '/assets/img/Disneyland.png',
             link: 'http://magicreservations.jim-creel.com/', 
-            stack: ['express', 'node', 'mongo', 'bootstrap', 'heroku']
+            stack: ['express', 'node', 'mongo', 'bootstrap', 'heroku', 'react', 'tailwind']
             
         }, 
         {
