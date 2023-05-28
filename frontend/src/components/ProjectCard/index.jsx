@@ -14,7 +14,7 @@ export default function ProjectCard(props) {
   let techDiv = "loading...";
   if (cardData?.stack) {
     techDiv = cardData.stack.map((item, ind) => {
-      let buildClass = "m-1 text-3xl" + " " + tech[0][item];
+      let buildClass = "flex flex-wrap m-1 text-3xl" + " " + tech[0][item];
       console.log(buildClass)
       return <i className={buildClass} key={ind}></i>;
     });
