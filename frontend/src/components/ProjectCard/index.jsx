@@ -5,7 +5,7 @@ export default function ProjectCard(props) {
   const [isFlipped, setIsFlipped] = useState(false);
   const { cardData } = props;
   const { tech } = props;
-  console.log(tech)
+ 
   
 
   function handleClick() {
@@ -15,7 +15,7 @@ export default function ProjectCard(props) {
   if (cardData?.stack) {
     techDiv = cardData.stack.map((item, ind) => {
       let buildClass = "break-all m-1 text-4xl" + " " + tech[0][item];
-      console.log(buildClass)
+    
       return <i className={buildClass} key={ind}></i>;
     });
   }
