@@ -9,11 +9,12 @@ export default function ProjectsPage({tech}) {
         {
             project: 'Magic Reservations',
             text: `The Disney reservation checker is a React app built with the Bootstrap and Tailwind CSS libraries. 
+            It uses an ExpressJS, NodeJS, and PostgreSQL backend to store user data and reservation information, and to send notifications.
             The site pulls publicly available reservation data from Disney websites and displays it for the
-              user filtered by resort, park, date, and annual pass. This demonstration site runs on one user that is constantly logged in.`,
+              user filtered by resort, park, date, and annual pass. There is a test user and password available on the site's login page`,
             img: '/assets/img/Disneyland.png',
             link: 'http://magicreservations.jim-creel.com/', 
-            stack: ['express', 'node', 'mongo', 'bootstrap', 'heroku', 'react', 'tailwind']
+            stack: ['express', 'node', 'postgresql', 'bootstrap', 'heroku', 'react', 'tailwind']
             
         }, 
         {
