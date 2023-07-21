@@ -32,6 +32,13 @@ export default function ProjectsPage({tech}) {
             img: '/assets/img/MLBInfo.png',
             link: 'http://mlbscores.jim-creel.com/',
             stack: ['react', 'express', 'node', 'mongo', 'tailwind', 'heroku']
+        },
+        {
+            project: 'MakerSpace Projects',
+            text: `This is a collection of images of projects I've designed and built.`,
+            img: '/assets/img/MakerSpace.png',
+            link: '/makerSpace',
+            stack: ['react', 'express', 'node', 'python']
         }
 
     ])
