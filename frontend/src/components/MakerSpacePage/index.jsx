@@ -2,7 +2,7 @@ export default function MakerSpacePage() {
     return(
         <>
             <h1 className="font-bold text-5xl text-accent text-center"> Arcade Project</h1>
-               <div className = 'flex flex-row flex-wrap max-w-75% justify-between p-15'>
+               <div className = 'flex flex-row flex-wrap max-w-75% p-15'>
                         <div className = 'flex flex-col items-center max-w-sm m-10'>
                             <h2 className="font-bold text-3xl text-accent text-center p-10">
                                 Prototype: a carboard template for proof of concept
