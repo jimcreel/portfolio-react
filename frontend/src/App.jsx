@@ -32,7 +32,10 @@ function App() {
         rpi: 'devicon-raspberrypi-line-wordmark',
         react: 'devicon-react-original-wordmark',
         sass: 'devicon-sass-original',
-        tailwind: 'devicon-tailwindcss-original-wordmark'
+        tailwind: 'devicon-tailwindcss-original-wordmark',
+        vue: 'devicon-vuejs-plain-wordmark',
+        vuetify: 'devicon-vuetify-plain',
+        typescript: 'devicon-typescript-original'
     }
 ])
 

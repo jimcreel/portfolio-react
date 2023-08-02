@@ -39,8 +39,14 @@ export default function ProjectsPage({tech}) {
             img: '/assets/img/MakerSpace.png',
             link: '/makerSpace',
             stack: ['react', 'express', 'node', 'python']
-        }
-
+        }, 
+        {
+            project: 'Vue Weather App',
+            text: `This is a simple weather app built with VueJS and the WeatherAPI.`,
+            img: '/assets/img/weather.svg',
+            link: 'http://weather.jim-creel.com/',
+            stack: ['vue', 'vuetify','express', 'node', 'heroku', 'typescript']
+        },
     ])
 
     let cardDiv = 'loading...'
