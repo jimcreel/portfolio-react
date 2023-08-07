@@ -43,7 +43,7 @@ export default function ProjectsPage({tech}) {
         {
             project: 'Vue Weather App',
             text: `This is a simple weather app built with VueJS and the WeatherAPI.`,
-            img: '/assets/img/weather.svg',
+            img: '/assets/img/weather.png',
             link: 'http://weather-typescript.jim-creel.com/',
             stack: ['vue', 'vuetify','express', 'node', 'heroku', 'typescript']
         },
