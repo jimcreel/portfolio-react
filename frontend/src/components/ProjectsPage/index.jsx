@@ -13,7 +13,7 @@ export default function ProjectsPage({tech}) {
             The site pulls publicly available reservation data from Disney websites and displays it for the
               user filtered by resort, park, date, and annual pass. There is a test user and password available on the site's login page`,
             img: '/assets/img/Disneyland.png',
-            link: 'http://magicreservations.jim-creel.com/', 
+            link: 'https://magicreservations.jim-creel.com/', 
             stack: ['express', 'node', 'postgresql', 'bootstrap', 'heroku', 'react', 'tailwind']
             
         }, 
@@ -22,7 +22,7 @@ export default function ProjectsPage({tech}) {
             text: `Brick By Brick is a Django/Python LEGO inventory site powered by a postgreSQL database, 
             where you can track your LEGO sets and parts.`,
             img: '/assets/img/BrickByBrick.png',
-            link: 'http://brickbybrick.jim-creel.com/',
+            link: 'https://brickbybrick.jim-creel.com/',
             stack: ['django', 'python', 'postgresql', 'heroku']
         },
         {
