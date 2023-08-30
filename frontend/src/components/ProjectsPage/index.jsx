@@ -13,7 +13,7 @@ export default function ProjectsPage({tech}) {
             The site pulls publicly available reservation data from Disney websites and displays it for the
               user filtered by resort, park, date, and annual pass. There is a test user and password available on the site's login page`,
             img: '/assets/img/Disneyland.png',
-            link: 'https://magicreservations.jim-creel.com/', 
+            link: 'https://www.magic-reservations.com/',
             stack: ['express', 'node', 'postgresql', 'bootstrap', 'heroku', 'react', 'tailwind']
             
         }, 
