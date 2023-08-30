@@ -47,6 +47,22 @@ export default function ProjectCard(props) {
           <button className="bg-secondary text-accent rounded p-2 m-2">
             <a href={cardData.link} target="_blank" rel="noopener noreferrer">Visit Site</a>
           </button>}
+          {cardData.code && cardData.code.frontend &&
+          <button className="bg-secondary text-accent rounded p-2 m-2">
+            <a href={cardData.code.frontend} target="_blank" rel="noopener noreferrer">Frontend Code </a>
+            </button>
+          }
+          {cardData.code && cardData.code.backend &&
+          <button className="bg-secondary text-accent rounded p-2 m-2">
+             <a href={cardData.code.backend} target="_blank" rel="noopener noreferrer">Backend Code </a>
+            </button>
+          }
+          {cardData.code && cardData.code.fullstack &&
+          <button className="bg-secondary text-accent rounded p-2 m-2">
+             <a href={cardData.code.fullstack} target="_blank" rel="noopener noreferrer">View Code </a>
+            </button>
+
+          }
         </div>
       </ReactCardFlip>
     </>

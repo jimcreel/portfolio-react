@@ -14,6 +14,7 @@ export default function ProjectsPage({tech}) {
               user filtered by resort, park, date, and annual pass. There is a test user and password available on the site's login page`,
             img: '/assets/img/Disneyland.png',
             link: 'https://www.magic-reservations.com/',
+            code: {frontend: 'https://github.com/jimcreel/disneyReservationChecker', backend: 'https://github.com/jimcreel/magicResBackend'},
             stack: ['express', 'node', 'postgresql', 'bootstrap', 'heroku', 'react', 'tailwind']
             
         }, 
@@ -23,6 +24,7 @@ export default function ProjectsPage({tech}) {
             where you can track your LEGO sets and parts.`,
             img: '/assets/img/BrickByBrick.png',
             link: 'https://brickbybrick.jim-creel.com/',
+            code: { fullstack: 'https://github.com/jimcreel/BrickByBrick'},
             stack: ['django', 'python', 'postgresql', 'heroku']
         },
         {
@@ -31,6 +33,7 @@ export default function ProjectsPage({tech}) {
             ExpressJS, NodeJS, and MongoDB backend.`,
             img: '/assets/img/MLBInfo.png',
             link: 'http://mlbscores.jim-creel.com/',
+            code: {fullstack: 'https://github.com/jimcreel/mlbScores'},
             stack: ['react', 'express', 'node', 'mongo', 'tailwind', 'heroku']
         },
         {
@@ -45,6 +48,7 @@ export default function ProjectsPage({tech}) {
             text: `This is a simple weather app built with VueJS and the WeatherAPI.`,
             img: '/assets/img/weather.png',
             link: 'http://weather-typescript.jim-creel.com/',
+            code: {fullstack: 'https://github.com/jimcreel/monyverse-vue-weather/tree/typescript'},
             stack: ['vue', 'vuetify','express', 'node', 'heroku', 'typescript']
         },
     ])
