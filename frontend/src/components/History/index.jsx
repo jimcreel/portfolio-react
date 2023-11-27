@@ -27,9 +27,7 @@ export default function History() {
             since. When the COVID-19 pandemic hit, I taught myself 
             Python and the concrete outcomes of a potential web 
             developer career enticed me to make a career change. 
-            I enrolled in General Assembly's Software Engineering 
-            Immersive program, and am ready now to transition
-            to a new career.`,
+            `,
             img: '/assets/img/chip.png'
         },
         {
