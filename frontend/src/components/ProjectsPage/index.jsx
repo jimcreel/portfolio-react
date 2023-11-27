@@ -18,15 +18,15 @@ export default function ProjectsPage({tech}) {
             stack: ['express', 'node', 'postgresql', 'bootstrap', 'heroku', 'react', 'tailwind']
             
         }, 
-        // {
-        //     project: 'Brick By Brick',
-        //     text: `Brick By Brick is a Django/Python LEGO inventory site powered by a postgreSQL database, 
-        //     where you can track your LEGO sets and parts.`,
-        //     img: '/assets/img/BrickByBrick.png',
-        //     link: 'https://brickbybrick.jim-creel.com/',
-        //     code: { fullstack: 'https://github.com/jimcreel/BrickByBrick'},
-        //     stack: ['django', 'python', 'postgresql', 'heroku']
-        // },
+        {
+            project: 'Brick By Brick',
+            text: `Brick By Brick is a Django/Python LEGO inventory site powered by a postgreSQL database, 
+            where you can track your LEGO sets and parts.`,
+            img: '/assets/img/BrickByBrick.png',
+            link: 'https://brickbybrick.jim-creel.com/',
+            code: { fullstack: 'https://github.com/jimcreel/BrickByBrick'},
+            stack: ['django', 'python', 'postgresql', 'heroku']
+        },
         {
             project: 'MLB Info',
             text: `MLB Info is a dynamic single page ReactJS site styled with Tailwind and powered by an 
