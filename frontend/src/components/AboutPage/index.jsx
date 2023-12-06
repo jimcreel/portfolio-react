@@ -1,6 +1,6 @@
 export default function AboutPage({tech}) {
 
-
+    // test comment
     let blurb = 'loading..'
     let techDiv = 'loading...'
     if (tech){
