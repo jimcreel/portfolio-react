@@ -23,7 +23,7 @@ export default function ProjectsPage({tech}) {
             text: `Brick By Brick is a Django/Python LEGO inventory site powered by a postgreSQL database, 
             where you can track your LEGO sets and parts.`,
             img: '/assets/img/BrickByBrick.png',
-            link: 'https://brickbybrick.jim-creel.com/',
+            link: 'https://brickbybrick.jwcreel.com/',
             code: { fullstack: 'https://github.com/jimcreel/BrickByBrick'},
             stack: ['django', 'python', 'postgresql', 'heroku']
         },
@@ -32,7 +32,7 @@ export default function ProjectsPage({tech}) {
             text: `MLB Info is a dynamic single page ReactJS site styled with Tailwind and powered by an 
             ExpressJS, NodeJS, and MongoDB backend.`,
             img: '/assets/img/MLBInfo.png',
-            link: 'http://mlbscores.jim-creel.com/',
+            link: 'http://mlbscores.jwcreel.com/',
             code: {fullstack: 'https://github.com/jimcreel/mlbScores'},
             stack: ['react', 'express', 'node', 'mongo', 'tailwind', 'heroku']
         },
@@ -47,7 +47,7 @@ export default function ProjectsPage({tech}) {
             project: 'Vue Weather App',
             text: `This is a simple weather app built with VueJS and the WeatherAPI.`,
             img: '/assets/img/weather.png',
-            link: 'http://weather-typescript.jim-creel.com/',
+            link: 'http://weather-typescript.jwcreel.com/',
             code: {fullstack: 'https://github.com/jimcreel/monyverse-vue-weather/tree/typescript'},
             stack: ['vue', 'vuetify','express', 'node', 'heroku', 'typescript']
         },
