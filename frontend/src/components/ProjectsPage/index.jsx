@@ -32,7 +32,7 @@ export default function ProjectsPage({tech}) {
             text: `MLB Info is a dynamic single page ReactJS site styled with Tailwind and powered by an 
             ExpressJS, NodeJS, and MongoDB backend.`,
             img: '/assets/img/MLBInfo.png',
-            link: 'http://mlbscores.jwcreel.com/',
+            link: 'http://mlb.jwcreel.com/',
             code: {fullstack: 'https://github.com/jimcreel/mlbScores'},
             stack: ['react', 'express', 'node', 'mongo', 'tailwind', 'heroku']
         },
